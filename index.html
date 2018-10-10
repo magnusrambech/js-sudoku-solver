@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1 id="title">SUDOKU SOLVER</h1>
+		<hr>
+		<div id="page-container">
+			<div id="content">
+				<div id ="sudokuContainer"></div>
+				<button id="solve-btn"onclick="solveBoard(unsolved)">Solve</button>
+				<button id="reset-btn"onclick="reset()">Reset</button>
+			</div>
+		</div>
+
+	<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
+
+
+
+<!--
+	var numTofill =  Math.floor((Math.random()) * 10);
+          if(!checkRow(vert, numTofill) && !checkColumn(hori, numTofill) && !checkBox(vert,hori,numTofill)){
+            insert(array, vert, hori, numTofill)
+            numTofill = 10;
+          
+        } -->
